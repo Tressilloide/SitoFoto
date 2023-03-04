@@ -1,0 +1,175 @@
+.sopra{
+    position: absolute;
+    width: 100%;
+    height: 5%;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    background: grey;
+    overflow: auto;
+}
+
+.sottosopra{
+    position: absolute;
+    width: 100%;
+    height: 30%;
+    top: 5%;
+    right: 0%;
+    left: 0%;
+    background-image: url("../images/capanna.jpg");
+    overflow: auto;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: grey;
+}
+.topnavdestra {
+    float: right;
+    color: #000000;
+    text-align: center;
+    padding: 14px 2%;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: fantasy
+}
+.topnav a:hover {
+    color:#ffffff;
+    background-color: rgb(110, 103, 103);
+    animation-name: nav;
+    animation-duration: 0.7s;
+    animation-iteration-count: 1;
+}
+
+@keyframes nav{
+    from{color:rgb(0, 0, 0);
+        background-color: gray;
+    }
+    to{color: #ffffff;
+        background-color: rgb(110, 103, 103);
+    }
+}
+
+.topnav a.active {
+    background-color: rgb(78, 78, 78);
+    color: white;
+    animation-name: acti;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+@keyframes acti{
+    from{background-color: grey}
+    to{background-color:rgb(78, 78, 78)}
+}
+
+
+.centro{
+    text-align: center;
+}
+
+.animazionetesto{
+    animation-name: testo;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes testo{
+    from{color: #ffdbc5;}
+    to{color: #014379;}
+}
+
+.testobello{
+    bottom: 50px;
+    font-family: fantasy;
+    color:#014379;
+    font-size: 50px;
+    text-align: center;
+    animation-name: testo;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+
+.sotto2{
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    top: 35%;
+    right: 0%;
+    left: 0%;
+    background-color: white;
+    overflow: auto;
+}
+.testosotto{
+    font-family: fantasy;
+    color:black;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.sotto3{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 45%;
+    right: 0%;
+    left: 0%;
+    background-color: white;
+    overflow: auto;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testotabella{
+    color: #008cff;
+    font-size: x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.immaginitabella:hover{
+    opacity: 0.7;
+}
+
+.sotto4{
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    top: 105%;
+    right: 0%;
+    left: 0%;
+    background-color: white;
+    overflow: auto;
+}
+
+.sotto5{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 105%;
+    right: 0%;
+    left: 0%;
+    background-color: white;
+    overflow: auto;
+}
+
+.bottone{
+    height: 90px;
+    width: 200px;
+    border-radius: 8px;
+    background-color:#008cff;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.hovbottone:hover{
+    background-color: #0a6bbb;
+}
+
+.testobrutto{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    text-align: center;
+    font-size: larger;
+}
